@@ -20,4 +20,5 @@ npm install riot-bump --save-dev
 `searchedString` — Case sensitive string to replace. Defaults to "WIP"
 
 The version number is readed from the package.json file in the current directory.
+
 The replacement is made without creating backup files.
