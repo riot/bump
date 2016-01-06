@@ -1,0 +1,19 @@
+{
+  "name": "riot-bump",
+  "version": "1.0.0",
+  "description": "Simple CLI tool for bump a new version",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riot/bump.git"
+  },
+  "author": "The Riot Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riot/bump/issues"
+  },
+  "homepage": "https://github.com/riot/bump#readme"
+}
