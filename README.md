@@ -19,6 +19,14 @@ npm install riot-bump --save-dev
 `directory` — It is the location of the .js files that will be replaced. Defaults to `dist/`  
 `searchedString` — Case sensitive string to replace. Defaults to "WIP"
 
-The version number is readed from the package.json file in the current directory.
-
+The version number is readed from the package.json file in the current directory.  
 The replacement is made without creating backup files.
+
+#### In package.json
+
+```js
+  "scripts": {
+    "test": "make test",
+    "prepublish": "make build && ./node_modules/.bin/riot-bump"
+  },
+```
